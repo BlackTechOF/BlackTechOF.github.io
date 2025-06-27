@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa de Ecopontos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+</head>
+<body>
+    <header>
+        <div class="logo">♻️ Reciclagem Inteligente</div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="materiais.html">Materiais</a></li>
+            <li><a href="mapa.html" id="hrefmapa">Mapa</a></li>
+            <li><a href="coleta.html">Coleta</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section class="hero">
+        <h1>MAPA</h1>
+        <p>Veja os Ecopontos mais próximos de voçê!</p>
+        <input type="text" id="inputlocal" placeholder="Digite Aqui Sua Localização Atual">
+        <button type='submit' id="geolocal">🗺️</button>
+      </section>
+    
+      <div id="map"></div>
+      <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+      <script src="script.js"></script>
+</body>
+</html>
