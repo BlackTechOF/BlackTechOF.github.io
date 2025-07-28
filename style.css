@@ -1,5 +1,6 @@
+@media screen and (max-width: 980px) {
 body {
-  background: white;
+  background: yellow;
   margin: 0;
 }
 
@@ -58,10 +59,4 @@ main {
   flex-wrap: wrap;
   gap: 30px;
 }
-
-@media screen and (max-width: 980px) {
-  body {
-    background: red;
-  }
-
 }
