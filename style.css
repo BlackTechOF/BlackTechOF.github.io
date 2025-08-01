@@ -8,6 +8,15 @@ body {
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 5%;
 }
 
 .logo {
@@ -52,5 +61,46 @@ body {
 
 .menuLateral img{
   width: 30%;
+}
+
+#sobre {
+  border: solid black 6px;
+  width: 90%;
+  border-radius: 30px;
+  margin: 0 auto 0 auto;
+}
+
+#sobrenos {
+  background: black;
+  width: 80%;
+  border-radius: 40px;
+  margin-left: 4%;
+  padding: 2px;
+
+}
+
+#sobre img {
+  width: 100%;
+  height: 10em;
+  border-radius: 25px;
+}
+
+#sobrenos span{
+  color: white;
+  text-align: center;
+  font-size: 60px;
+}
+
+
+section:hover {
+  transform: scale(1.05);
+}
+
+section h2 {
+  width: 100%;
+  padding: 5px;
+  text-align: start;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: italic;
 }
 }
