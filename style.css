@@ -19,15 +19,16 @@ body {
   width: 20%;
 }
 
-#menuLateral {
-  margin-left: 30%;
-  align-items: center;
-  text-align: center;
-  margin-top: -3%;
+#imgLogo {
+  border: solid white 3px;
 }
 
-#menuLateral img {
-  width: 90%;
+.logo {
+  display: flex;
+}
+
+.logo nav img {
+  width: 100%;
 }
 
 .logo a {
@@ -39,7 +40,17 @@ body {
   display: flex;
   justify-content: center;
   gap: 20px;
-  margin-top: 8%;
-  margin-left: 5%;
+  margin-top: 5%;
+  margin-left: 2%;
+}
+
+.menuLateral {
+  position: relative;
+  margin-top: 5%;
+  left: 20%;
+}
+
+.menuLateral img{
+  width: 30%;
 }
 }
