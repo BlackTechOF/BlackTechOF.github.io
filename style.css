@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
 body {
   background: white;
   color: black;
@@ -104,3 +104,4 @@ section h2 {
   font-style: italic;
 }
 }
+
