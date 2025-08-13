@@ -1,18 +1,30 @@
 @media screen and (max-width: 768px) {
 
-  @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Nunito&Montserrat&=swap');
 
 body {
   font-family: Nunito;
   background: #333;
   color: white;
+  margin: 0;
 }
 
 main {
-  margin-top: 15%;
+  margin-top: 7%;
   display: flex;
   flex-direction: column;
   gap: 25px;
+}
+
+.introducao {
+  position: relative;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     text-align: center;
+     align-items: center;
+     top: 14px;
+     font-family: Arial, Helvetica, sans-serif;
 }
 
 #sobrenos {
@@ -47,13 +59,23 @@ section h2:hover {
   border: solid white 3px;
 }
 
-
-.logo nav img {
-  width: 1.1em;
+.menuLateral {
+  margin-top: 3.5%;
 }
 
-.menuLateral img{
-  width: 30%;
+.menuLateral img {
+  width: 90%;
+}
+
+.logo nav {
+  display: flex;
+  gap: 7px;
+  margin-top: 4.5%;
+  margin-left: 5%;
+}
+
+.logo nav img {
+  width: 55%;
 }
 
 section {
