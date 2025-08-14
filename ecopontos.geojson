@@ -1,0 +1,16 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Ecoponto Viaduto Engenheiro Alberto Badra",
+        "endereco": "Avenida Aricanduva, nº 200 - Praça Lúcia Mekhitarian – Bairro: Aricanduva (baixo do Viaduto Engenheiro Alberto Badra)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-23.5371720292331, -46.547303063619374]
+      }
+    }
+  ]
+}
